@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, inital-scale=1.0">
+        <title>HTML&CSS 実践</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/reset.css">
+    </head>
+    <body>
+        <header>
+            <nav id="nav">
+                <ul>
+                    <li>
+                        <a href="#service">
+                            <em>サービス</em>
+                            <br>Service
+                        </a>
+                　　</li>
+                    <li>
+                        <a href="#news">
+                            <em>ニュース</em>
+                            <br>News
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#price">
+                            <em>価格</em>
+                            <br>Price
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#contact">
+                            <em>お問い合わせ</em>
+                            <br>Contact
+                        </a>
+                    </li>
+                    
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="top">
+                <div class="top_wrap">
+                    <h1>Men's Salon</h1>
+                </div>
+            </section>
+            <section id="service">
+                <h2 class="section_title">Service</h2>
+                <div class="service_wrap">
+                    <div class="service_left">
+                        <img src="img/service.jpeg" alt="サービス画像">
+                    </div>
+                    <div class="service_right">
+                        <h3>新春割引キャンペーン</h3>
+                        <h2 id="datumou">家庭用脱毛器</h2>
+                        <h2>￥20000　(税込み￥22000)</h2>
+                        <p>数多くある脱毛器の中から本当に効果のあるものだけを厳選！自宅にいながらサロン級の脱毛を。</p><hr>
+                        <p><br>※ 以下条件のすべてを満たした場合に新春キャンペーンの適用となります。</p>
+                        <p>個人契約のお客さまであること<br> 3回以上通うことができる方<br> 成人した男性の方</p>
+                    </div>
+                </div>
+            </section>
+            <section id="news">
+                <h2 class="section_title">News</h2>
+                <div class="news_wrap">
+                    <p>2021/1/1 新年のご挨拶</p>
+                    <p>2020/12/31 年末年始の店舗休業案内</p>
+                    <p>2020/8/23 お盆休みによる店舗の休業案内</p>
+                  </div>
+            </section>
+            <section id="price">
+                <h2 class="section_title">Price</h2>
+                <div class="price_wrap">
+                    <table>
+                        <tr>
+                            <th>-</th>
+                            <th>プランA</th>
+                            <th>プランB</th>
+                        </tr>
+                        <tr>
+                            <td>入会金</td>
+                            <td>10万円</td>
+                            <td>15万円</td>
+                        </tr>
+                        <tr>
+                            <td>料金</td>
+                            <td>９００円/月</td>
+                            <td>１５００円/月</td>
+                        </tr>
+                    </table>
+                </div>
+            </section>
+            <section id="contact">
+                <h2 class="section_title">Contact</h2>
+            <form class="form" method="post">
+                <div>
+                    <label for="name">氏名：</label>
+                    <input type="text" id="name" name="user_name">
+                </div>
+                <div>
+                    <label for="mail">メールアドレス：</label>
+                    <input type="email" id="mail" name="user_mail">
+                </div>
+                <div>
+                    <label for="tel">電話番号：</label>
+                    <input type="tel" id="tel" name="user_tel">
+                </div>
+                <div>
+                    <label for="msg">内容：</label>
+                    <textarea id="msg" name="user_massage"></textarea>
+                </div>
+                <div class="button_submit">
+                    <button class="button" type="submit">送信</button>
+                </div>
+            </form>
+            </section>
+        </main>
+        <footer id="footer">
+            <a href="#nav" class="goPT">TOP</a>
+            <div>
+                <small>© 2021 CODESTAR All rights reserved.</small>
+            </div>
+        </footer>
+    </body>
+</html>
